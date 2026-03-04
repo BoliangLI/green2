@@ -9,7 +9,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-emerald-600 via-green-600 to-teal-500 flex items-center justify-center p-4">
       {/* 背景装饰 */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/10 rounded-full blur-3xl animate-float"></div>
@@ -28,7 +28,7 @@ export default function App() {
         </div>
 
         {/* 标题 */}
-        <h1 className="text-5xl md:text-6xl font-bold text-white mb-4 animate-slide-up">
+            <svg className="w-12 h-12 text-emerald-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           欢迎来到
         </h1>
         <h2 className="text-3xl md:text-4xl font-semibold text-white/90 mb-6 animate-slide-up" style={{ animationDelay: '0.2s' }}>
@@ -48,7 +48,7 @@ export default function App() {
           <button className="px-8 py-4 bg-white/20 backdrop-blur-lg text-white font-semibold rounded-2xl border border-white/30 hover:bg-white/30 transition-all duration-300">
             了解更多
           </button>
-        </div>
+          <button className="px-8 py-4 bg-white text-emerald-600 font-semibold rounded-2xl shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
 
         {/* 底部提示 */}
         <div className="mt-12 animate-fade-in" style={{ animationDelay: '1s' }}>
